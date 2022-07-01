@@ -11,6 +11,15 @@
 
     <name>Spring project for GB</name>
 
+    <developers>
+        <developer>
+            <name>Alvi Dediev</name>
+            <email>huskartp@gmail.com</email>
+            <!-- Ссылка на профиль телеграм -->
+            <url>t.me/alvi3d</url>
+        </developer>
+    </developers>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -37,7 +46,7 @@
 
     <build>
         <finalName>firstApp</finalName>
-        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.wildfly.plugins</groupId>
@@ -49,7 +58,6 @@
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.1.0</version>
                 </plugin>
-                <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.0.2</version>
